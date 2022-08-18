@@ -2,7 +2,7 @@ var citis = document.getElementById("city");
 var districts = document.getElementById("district");
 var wards = document.getElementById("ward");
 var Parameter = {
-  url: "https://api.npoint.io/ed4a79dbc0f5f98358a5", //Đường dẫn đến file chứa dữ liệu hoặc api do backend cung cấp
+  url: "https://raw.githubusercontent.com/suppcuti/CatApi/master/data.json", //Đường dẫn đến file chứa dữ liệu hoặc api do backend cung cấp
   method: "GET", //do backend cung cấp
 };
 //gọi ajax = axios => nó trả về cho chúng ta là một promise
